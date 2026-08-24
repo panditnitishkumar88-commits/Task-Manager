@@ -26,6 +26,30 @@ A simple and interactive **Task Manager Web Application** built using **HTML, CS
 - **DOM Manipulation**
 - **LocalStorage**
 
+## ⚙️ How It Works
+
+1. Click the **Add (+)** button to open the task creator.
+2. Enter your task in the text area.
+3. Select a priority color.
+4. Press **Enter** to create the task.
+5. Use the color buttons to filter tasks by priority.
+6. Click the lock icon to edit or lock a task.
+7. Activate the delete option and double-click a task to delete it.
+8. Tasks are stored in **LocalStorage**, so they remain available after refreshing the browser.
+
+## 💡 Key JavaScript Concepts Used
+
+- **DOM Manipulation**
+- **Event Listeners**
+- **Event Delegation**
+- **Arrays and Objects**
+- **Array Methods (`filter()`, `forEach()`)**
+- **`createElement()`**
+- **`classList`**
+- **`event.target`**
+- **JSON (`JSON.stringify()` and `JSON.parse()`)**
+- **Browser LocalStorage**
+
 ## 📂 Project Structure
 
 ```text
@@ -35,3 +59,5 @@ Task-Manager/
 ├── style.css
 ├── script.js
 └── README.md
+
+
